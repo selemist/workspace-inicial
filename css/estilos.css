@@ -1,0 +1,67 @@
+.imagen-container {
+    width: 100vh;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; 
+    width: auto; 
+    margin-bottom: 5%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto; 
+    width: auto; 
+}
+
+.imagen-precios{
+    position: relative;
+}
+
+.precios-vendidos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.imagen-precios:hover .precios-vendidos {
+    opacity: 1;
+}
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.pb-5 {
+    margin: 3%;
+}
+
+/* A partir de aquí está el CSS del formulario */
+
+#imagen-login {
+    width: 100%;
+    height: auto;
+  }
+
+  .col-lg-8 {
+    width: auto;
+    position: relative;
+    padding: 4%;
+  }
+
+.col-lg-4{
+margin: 0%;
+  }
